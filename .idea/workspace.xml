@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="" />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -22,10 +25,42 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ColourTableTest">
+    <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentNumber3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colourtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.colourtable" />
+      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTableTest.testConstructorWithValidPaletteSizeGreaterThan1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentNumber3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colourtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.colourtable" />
+      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
+      <option name="METHOD_NAME" value="testConstructorWithValidPaletteSizeGreaterThan1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Assignment3Submission" />
       <method v="2">
@@ -39,6 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ColourTableTest" />
+        <item itemvalue="JUnit.ColourTableTest.testConstructorWithValidPaletteSizeGreaterThan1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,6 +90,39 @@
       <option name="presentableId" value="Default" />
       <updated>1701204286748</updated>
     </task>
+    <task id="LOCAL-00001" summary=" Added Junit Jupiter API as a dependency along with JUnit 5 to pom.xml file. Created ColourTable in the main folder and ColourTableTest in the test folder. Imported org.junit.jupiter.api.Test and static org.junit.jupiter.api.Assertions.* into ColourTableTest then defined the packages and classes in the files.">
+      <option name="closed" value="true" />
+      <created>1701205360828</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701205360828</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java.">
+      <option name="closed" value="true" />
+      <created>1701205515513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701205515513</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" Added Junit Jupiter API as a dependency along with JUnit 5 to pom.xml file. Created ColourTable in the main folder and ColourTableTest in the test folder. Imported org.junit.jupiter.api.Test and static org.junit.jupiter.api.Assertions.* into ColourTableTest then defined the packages and classes in the files." />
+    <MESSAGE value="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java." />
   </component>
 </project>
