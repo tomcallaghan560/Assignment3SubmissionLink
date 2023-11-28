@@ -10,7 +10,7 @@ public class ColourTable {
 
     public ColourTable(int paletteSize) {
         if (!isValidPaletteSize(paletteSize)) {
-            throw new IllegalArgumentException("Invalid palette size. Must be between 2 and 1024");
+            throw new IllegalArgumentException("Invalid palette size. Must be between 2 and 1024 and be a power of 2.");
         }
         this.paletteSize = paletteSize;
         this.palette = new ArrayList<>(paletteSize);
