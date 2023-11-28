@@ -47,6 +47,14 @@ public class ColourTableTest {
         assertNotNull(colourTable);
     }
 
+    @Test
+    void testNumberOfColoursAddedValid() {
+        ColourTable colourTable = new ColourTable(4);
+        colourTable.add(0xFF0000); // Red
+        colourTable.add(0x00FF00); // Green
+        assertEquals(2, colourTable.getNumberOfColors());
+    }
+
 }
 
 
