@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java." />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Augmented ColourTable to make estConstructorWithValidPaletteSizeGreaterThan1 pass.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +31,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTableTest">
+  <component name="RunManager" selected="JUnit.ColourTableTest.testConstructorWithValidPaletteSizeLessThan1025">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -61,6 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColourTableTest.testConstructorWithValidPaletteSizeLessThan1025" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentNumber3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colourtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.colourtable" />
+      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
+      <option name="METHOD_NAME" value="testConstructorWithValidPaletteSizeLessThan1025" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Assignment3Submission" />
       <method v="2">
@@ -76,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTableTest.testConstructorWithValidPaletteSizeLessThan1025" />
         <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithValidPaletteSizeGreaterThan1" />
       </list>
@@ -106,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701205515513</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Augmented ColourTable to make estConstructorWithValidPaletteSizeGreaterThan1 pass.">
+      <option name="closed" value="true" />
+      <created>1701205904852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701205904852</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Added Junit Jupiter API as a dependency along with JUnit 5 to pom.xml file. Created ColourTable in the main folder and ColourTableTest in the test folder. Imported org.junit.jupiter.api.Test and static org.junit.jupiter.api.Assertions.* into ColourTableTest then defined the packages and classes in the files." />
     <MESSAGE value="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java." />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java." />
+    <MESSAGE value="Augmented ColourTable to make estConstructorWithValidPaletteSizeGreaterThan1 pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Augmented ColourTable to make estConstructorWithValidPaletteSizeGreaterThan1 pass." />
   </component>
 </project>

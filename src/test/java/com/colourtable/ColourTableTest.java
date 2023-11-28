@@ -9,5 +9,11 @@ public class ColourTableTest {
     void testConstructorWithValidPaletteSizeGreaterThan1() {
         assertThrows(IllegalArgumentException.class, () -> new ColourTable(1));
     }
+
+    @Test
+    void testConstructorWithValidPaletteSizeLessThan1025() {
+
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable(1025));
+    }
 }
 
