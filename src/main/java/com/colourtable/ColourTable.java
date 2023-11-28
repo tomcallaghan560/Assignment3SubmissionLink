@@ -42,4 +42,8 @@ public class ColourTable {
         // Add the RGB color to the palette
         palette.add(rgbColor);
     }
+
+    public int getNumberOfColours() {
+        return palette.size();
+    }
 }
