@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Edited ColourTable to make testConstructorWithInvalidPaletteSizeNotPowerOfTwo pass.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Defined testAddValidRGBColor in ColourTableTest.">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/colourtable/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colourtable/ColourTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +14,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -32,7 +32,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTableTest">
+  <component name="RunManager" selected="JUnit.ColourTableTest.testAddValidRGBColor">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -44,6 +44,22 @@
       <option name="PACKAGE_NAME" value="com.colourtable" />
       <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTableTest.testAddValidRGBColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentNumber3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colourtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.colourtable" />
+      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
+      <option name="METHOD_NAME" value="testAddValidRGBColor" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,22 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ColourTableTest.testConstructorWithValidPaletteSizeLessThan1025" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AssignmentNumber3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.colourtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.colourtable" />
-      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
-      <option name="METHOD_NAME" value="testConstructorWithValidPaletteSizeLessThan1025" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Assignment3Submission" />
       <method v="2">
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTableTest.testAddValidRGBColor" />
         <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithInValidPaletteSize" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithInvalidPaletteSizeNotPowerOfTwo" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithValidPaletteSize" />
-        <item itemvalue="JUnit.ColourTableTest.testConstructorWithValidPaletteSizeLessThan1025" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +216,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701209966299</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Changed IllegalArgumentException to &quot;Invalid palette size. Must be between 2 and 1024 and be a power of 2.&quot; in ColourTable">
+      <option name="closed" value="true" />
+      <created>1701211716180</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701211716180</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Defined testAddValidRGBColor in ColourTableTest.">
+      <option name="closed" value="true" />
+      <created>1701211832231</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701211832231</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Defined testAddValidRGBColor in ColourTableTest.">
+      <option name="closed" value="true" />
+      <created>1701212674573</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701212674573</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +264,8 @@
     <MESSAGE value="Committed as testConstructorWithValidPaletteSizePowerOfTwo didn't have camelcase on Of." />
     <MESSAGE value="Defined testConstructorWithInvalidPaletteSizeNotPowerOfTwo." />
     <MESSAGE value="Edited ColourTable to make testConstructorWithInvalidPaletteSizeNotPowerOfTwo pass." />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited ColourTable to make testConstructorWithInvalidPaletteSizeNotPowerOfTwo pass." />
+    <MESSAGE value="Changed IllegalArgumentException to &quot;Invalid palette size. Must be between 2 and 1024 and be a power of 2.&quot; in ColourTable" />
+    <MESSAGE value="Defined testAddValidRGBColor in ColourTableTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Defined testAddValidRGBColor in ColourTableTest." />
   </component>
 </project>
