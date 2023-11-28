@@ -21,6 +21,6 @@ public class ColourTable {
     }
 
     private boolean isValidPaletteSize(int size) {
-        return size > 1 && size < 1025;
+        return size > 1 && (size & (size - 1)) == 0 && size < 1025;
     }
 }

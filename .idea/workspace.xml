@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Committed as testConstructorWithValidPaletteSizePowerOfTwo didn't have camelcase on Of.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" afterDir="false" />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Defined testConstructorWithInvalidPaletteSizeNotPowerOfTwo.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colourtable/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colourtable/ColourTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTableTest.testConstructorWithInvalidPaletteSizeNotPowerOfTwo">
+  <component name="RunManager" selected="JUnit.ColourTableTest">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -126,10 +126,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithInvalidPaletteSizeNotPowerOfTwo" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithInValidPaletteSize" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithValidPaletteSize" />
-        <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testConstructorWithValidPaletteSizeLessThan1025" />
       </list>
     </recent_temporary>
@@ -199,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701208877014</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Defined testConstructorWithInvalidPaletteSizeNotPowerOfTwo.">
+      <option name="closed" value="true" />
+      <created>1701209676927</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701209676927</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,11 +224,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value=" Added Junit Jupiter API as a dependency along with JUnit 5 to pom.xml file. Created ColourTable in the main folder and ColourTableTest in the test folder. Imported org.junit.jupiter.api.Test and static org.junit.jupiter.api.Assertions.* into ColourTableTest then defined the packages and classes in the files." />
     <MESSAGE value="Defined testConstructorWithValidPaletteSizeGreaterThan1 in ColourTableTest.java." />
-    <MESSAGE value="Augmented ColourTable to make estConstructorWithValidPaletteSizeGreaterThan1 pass." />
+    <MESSAGE value="Augmented ColourTable to make testConstructorWithValidPaletteSizeGreaterThan1 pass." />
     <MESSAGE value="Defined testConstructorWithValidPaletteSizeLessThan1025 in ColourTableTest." />
     <MESSAGE value="Augmented ColourTable to make estConstructorWithValidPaletteSizeGreaterThan1 and testConstructorWithValidPaletteSizeLessThan1025 pass." />
     <MESSAGE value="Defined estConstructorWithValidPaletteSizePowerofTwo. This test passed so no change made to ColourTable." />
     <MESSAGE value="Committed as testConstructorWithValidPaletteSizePowerOfTwo didn't have camelcase on Of." />
-    <option name="LAST_COMMIT_MESSAGE" value="Committed as testConstructorWithValidPaletteSizePowerOfTwo didn't have camelcase on Of." />
+    <MESSAGE value="Defined testConstructorWithInvalidPaletteSizeNotPowerOfTwo." />
+    <option name="LAST_COMMIT_MESSAGE" value="Defined testConstructorWithInvalidPaletteSizeNotPowerOfTwo." />
   </component>
 </project>
