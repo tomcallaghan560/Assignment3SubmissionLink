@@ -40,6 +40,13 @@ public class ColourTableTest {
         }
     }
 
+    @Test
+    void testAddValidRGBColor() {
+        ColourTable colourTable = new ColourTable(4);
+        colourTable.add(0xFF0000); // Red
+        assertNotNull(colourTable);
+    }
+
 }
 
 
