@@ -26,5 +26,21 @@ public class ColourTableTest {
         }
     }
 
+    @Test
+    void testConstructorWithInvalidPaletteSizeNotPowerOfTwo() {
+        int number = 1;
+
+        while (number < 1025) {
+            // Check if the number is not a power of two
+            if ((number & (number - 1)) != 0) {
+                int finalNumber = number;
+                assertThrows(IllegalArgumentException.class, () -> new ColourTable(finalNumber));
+            }
+            number++;
+        }
+    }
+
+}
+
 
 
