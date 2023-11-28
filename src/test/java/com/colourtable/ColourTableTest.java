@@ -17,7 +17,7 @@ public class ColourTableTest {
     }
 
     @Test
-    void testConstructorWithValidPaletteSizePowerofTwo() {
+    void testConstructorWithValidPaletteSizePowerOfTwo() {
         int number = 2;
         while (number < 1025) {
             ColourTable colourTable = new ColourTable(number);
@@ -25,5 +25,6 @@ public class ColourTableTest {
             number = number * 2;
         }
     }
-}
+
+
 
