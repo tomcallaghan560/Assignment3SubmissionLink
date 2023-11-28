@@ -15,5 +15,15 @@ public class ColourTableTest {
 
         assertThrows(IllegalArgumentException.class, () -> new ColourTable(1025));
     }
+
+    @Test
+    void testConstructorWithValidPaletteSizePowerofTwo() {
+        int number = 2;
+        while (number < 1025) {
+            ColourTable colourTable = new ColourTable(number);
+            assertNotNull(colourTable);
+            number = number * 2;
+        }
+    }
 }
 
