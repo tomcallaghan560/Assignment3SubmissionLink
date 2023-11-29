@@ -42,6 +42,11 @@ public class ColourTable {
             throw new IllegalStateException("Exceeded the capacity of the ColourTable.");
         }
 
+        // Check for duplicate color
+        if (palette.contains(rgbColor)) {
+            throw new IllegalArgumentException("Duplicate RGB color value added to ColourTable.");
+        }
+
         // Add the RGB color to the palette
         palette.add(rgbColor);
     }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Added testAddDuplicateColourNotAllowed to ColourTableTest." />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Refactored add method to make testAddDuplicateColourNotAllowed pass.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/colourtable/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/colourtable/ColourTable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -311,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701255291008</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Refactored add method to make testAddDuplicateColourNotAllowed pass.">
+      <option name="closed" value="true" />
+      <created>1701255625641</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1701255625641</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,6 +368,7 @@
     <MESSAGE value="Added testAddInvalidRGBColor to ColourTableTest." />
     <MESSAGE value="Added testAddInvalidRGBColor to ColourTableTest." />
     <MESSAGE value="Added testAddDuplicateColourNotAllowed to ColourTableTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testAddDuplicateColourNotAllowed to ColourTableTest." />
+    <MESSAGE value="Refactored add method to make testAddDuplicateColourNotAllowed pass." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored add method to make testAddDuplicateColourNotAllowed pass." />
   </component>
 </project>
