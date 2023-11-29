@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Added testAddExceedingCapacity() to ColourTableTest." />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Added conditional statement in add method to check if capacity of the ColourTable had been exceeded." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +31,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTableTest.testAddExceedingCapacity">
+  <component name="RunManager" selected="JUnit.ColourTableTest.testAddInvalidRGBColor">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -63,6 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColourTableTest.testAddInvalidRGBColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentNumber3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colourtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.colourtable" />
+      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
+      <option name="METHOD_NAME" value="testAddInvalidRGBColor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTableTest.testAddInvalidRGBColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -74,22 +90,6 @@
       <option name="PACKAGE_NAME" value="com.colourtable" />
       <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
       <option name="METHOD_NAME" value="testAddInvalidRGBColour" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColourTableTest.testAddValidRGBColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AssignmentNumber3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.colourtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.colourtable" />
-      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
-      <option name="METHOD_NAME" value="testAddValidRGBColor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTableTest.testAddExceedingCapacity" />
+        <item itemvalue="JUnit.ColourTableTest.testAddInvalidRGBColor" />
         <item itemvalue="JUnit.ColourTableTest" />
+        <item itemvalue="JUnit.ColourTableTest.testAddExceedingCapacity" />
         <item itemvalue="JUnit.ColourTableTest.testAddInvalidRGBColour" />
         <item itemvalue="JUnit.ColourTableTest.testNumberOfColoursAddedValid" />
-        <item itemvalue="JUnit.ColourTableTest.testAddValidRGBColor" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701253674744</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added conditional statement in add method to check if capacity of the ColourTable had been exceeded.">
+      <option name="closed" value="true" />
+      <created>1701253943349</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701253943349</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +321,7 @@
     <MESSAGE value="Defined testNumberOfColoursAddedValid in ColourTableTest." />
     <MESSAGE value="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable." />
     <MESSAGE value="Added testAddExceedingCapacity() to ColourTableTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testAddExceedingCapacity() to ColourTableTest." />
+    <MESSAGE value="Added conditional statement in add method to check if capacity of the ColourTable had been exceeded." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added conditional statement in add method to check if capacity of the ColourTable had been exceeded." />
   </component>
 </project>

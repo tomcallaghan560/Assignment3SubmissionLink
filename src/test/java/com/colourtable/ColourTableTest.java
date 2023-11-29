@@ -62,7 +62,12 @@ public class ColourTableTest {
         colourTable.add(0xFF0000); // Red
         assertThrows(IllegalStateException.class, () -> colourTable.add(0x0000FF)); // Blue
     }
+
+
+    @Test
+    void testAddInvalidRGBColor() {
+        ColourTable colourTable = new ColourTable(8);
+        assertThrows(IllegalArgumentException.class, () -> colourTable.add(-0x1FFFFFF));
+    }
 }
-
-
 
