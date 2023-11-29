@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Defined testNumberOfColoursAddedValid in ColourTableTest." />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,10 +30,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTableTest.testNumberOfColoursAddedValid">
+  <component name="RunManager" selected="JUnit.ColourTableTest">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -46,6 +50,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColourTableTest.testAddExceedingCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentNumber3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colourtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.colourtable" />
+      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
+      <option name="METHOD_NAME" value="testAddExceedingCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTableTest.testAddInvalidRGBColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AssignmentNumber3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.colourtable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.colourtable" />
+      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
+      <option name="METHOD_NAME" value="testAddInvalidRGBColour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ColourTableTest.testAddValidRGBColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -57,38 +93,6 @@
       <option name="PACKAGE_NAME" value="com.colourtable" />
       <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
       <option name="METHOD_NAME" value="testAddValidRGBColor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColourTableTest.testConstructorWithInValidPaletteSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AssignmentNumber3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.colourtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.colourtable" />
-      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
-      <option name="METHOD_NAME" value="testConstructorWithInValidPaletteSize" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ColourTableTest.testConstructorWithInvalidPaletteSizeNotPowerOfTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AssignmentNumber3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.colourtable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.colourtable" />
-      <option name="MAIN_CLASS_NAME" value="com.colourtable.ColourTableTest" />
-      <option name="METHOD_NAME" value="testConstructorWithInvalidPaletteSizeNotPowerOfTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTableTest" />
+        <item itemvalue="JUnit.ColourTableTest.testAddExceedingCapacity" />
+        <item itemvalue="JUnit.ColourTableTest.testAddInvalidRGBColour" />
         <item itemvalue="JUnit.ColourTableTest.testNumberOfColoursAddedValid" />
         <item itemvalue="JUnit.ColourTableTest.testAddValidRGBColor" />
-        <item itemvalue="JUnit.ColourTableTest" />
-        <item itemvalue="JUnit.ColourTableTest.testConstructorWithInValidPaletteSize" />
-        <item itemvalue="JUnit.ColourTableTest.testConstructorWithInvalidPaletteSizeNotPowerOfTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701212982047</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable.">
+      <option name="closed" value="true" />
+      <created>1701213414064</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701213414064</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -262,7 +274,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -282,6 +306,7 @@
     <MESSAGE value="Defined testAddValidRGBColor in ColourTableTest." />
     <MESSAGE value="Defined add and isValidRGB." />
     <MESSAGE value="Defined testNumberOfColoursAddedValid in ColourTableTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Defined testNumberOfColoursAddedValid in ColourTableTest." />
+    <MESSAGE value="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable." />
   </component>
 </project>

@@ -41,7 +41,7 @@ public class ColourTableTest {
     }
 
     @Test
-    void testAddValidRGBColor() {
+    void testAddValidRGBColour() {
         ColourTable colourTable = new ColourTable(4);
         colourTable.add(0xFF0000); // Red
         assertNotNull(colourTable);
@@ -55,6 +55,13 @@ public class ColourTableTest {
         assertEquals(2, colourTable.getNumberOfColours());
     }
 
+    @Test
+    void testAddExceedingCapacity() {
+        ColourTable colourTable = new ColourTable(2);
+        colourTable.add(0x00FF00); // Green
+        colourTable.add(0xFF0000); // Red
+        assertThrows(IllegalStateException.class, () -> colourTable.add(0x0000FF)); // Blue
+    }
 }
 
 
