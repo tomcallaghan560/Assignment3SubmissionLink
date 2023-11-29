@@ -69,5 +69,12 @@ public class ColourTableTest {
         ColourTable colourTable = new ColourTable(8);
         assertThrows(IllegalArgumentException.class, () -> colourTable.add(-0x1FFFFFF));
     }
-}
 
+
+    @Test
+    void testAddDuplicateColourNotAllowed() {
+        ColourTable colourTable = new ColourTable(8);
+        colourTable.add(0xFF0000); // Red
+        assertThrows(IllegalArgumentException.class, () -> colourTable.add(0xFF0000)); // Same Red again
+    }
+}

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Added estAddInvalidRGBColor to ColourTableTest." />
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Added estAddInvalidRGBColor to ColourTableTest.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTableTest.testAddInvalidRGBColor">
+  <component name="RunManager" selected="JUnit.ColourTableTest">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -126,8 +128,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTableTest.testAddInvalidRGBColor" />
         <item itemvalue="JUnit.ColourTableTest" />
+        <item itemvalue="JUnit.ColourTableTest.testAddInvalidRGBColor" />
         <item itemvalue="JUnit.ColourTableTest.testAddExceedingCapacity" />
         <item itemvalue="JUnit.ColourTableTest.testAddInvalidRGBColour" />
         <item itemvalue="JUnit.ColourTableTest.testNumberOfColoursAddedValid" />
@@ -287,7 +289,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701254502787</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added estAddInvalidRGBColor to ColourTableTest.">
+      <option name="closed" value="true" />
+      <created>1701254562633</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701254562633</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
