@@ -65,7 +65,7 @@ public class ColourTableTest {
 
 
     @Test
-    void testAddInvalidRGBColor() {
+    void testAddInvalidRGBColour() {
         ColourTable colourTable = new ColourTable(8);
         assertThrows(IllegalArgumentException.class, () -> colourTable.add(-0x1FFFFFF));
     }
