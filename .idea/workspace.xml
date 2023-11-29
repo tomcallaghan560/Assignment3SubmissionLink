@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/colourtable/ColourTableTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="165307a9-14cf-4da0-9ae0-5a1f62ac2337" name="Changes" comment="Added testAddExceedingCapacity() to ColourTableTest." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +31,7 @@
     "settings.editor.selected.configurable": "settings.sync"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTableTest">
+  <component name="RunManager" selected="JUnit.ColourTableTest.testAddExceedingCapacity">
     <configuration name="ColourTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AssignmentNumber3" />
       <extension name="coverage">
@@ -129,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testAddExceedingCapacity" />
+        <item itemvalue="JUnit.ColourTableTest" />
         <item itemvalue="JUnit.ColourTableTest.testAddInvalidRGBColour" />
         <item itemvalue="JUnit.ColourTableTest.testNumberOfColoursAddedValid" />
         <item itemvalue="JUnit.ColourTableTest.testAddValidRGBColor" />
@@ -266,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701213414064</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added testAddExceedingCapacity() to ColourTableTest.">
+      <option name="closed" value="true" />
+      <created>1701253674744</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1701253674744</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,6 +312,7 @@
     <MESSAGE value="Defined add and isValidRGB." />
     <MESSAGE value="Defined testNumberOfColoursAddedValid in ColourTableTest." />
     <MESSAGE value="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed testNumberOfColorsAddedValid to estNumberOfColoursAddedValid. Added getNumberOfColours method in ColourTable." />
+    <MESSAGE value="Added testAddExceedingCapacity() to ColourTableTest." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added testAddExceedingCapacity() to ColourTableTest." />
   </component>
 </project>

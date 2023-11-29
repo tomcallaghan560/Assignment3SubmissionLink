@@ -38,6 +38,9 @@ public class ColourTable {
         if (!isValidRGB(rgbColor)) {
             throw new IllegalArgumentException("Invalid RGB color value added to ColourTable.");
         }
+        if (palette.size() >= paletteSize) {
+            throw new IllegalStateException("Exceeded the capacity of the ColourTable.");
+        }
 
         // Add the RGB color to the palette
         palette.add(rgbColor);
