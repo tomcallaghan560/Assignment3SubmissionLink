@@ -44,13 +44,13 @@ public class ColourTable {
     }
 
     /**
-     * Validates if the given RGB color is a valid 24-bit value.
+     * Validates if the given RGB colour is a valid 24-bit value.
      *
-     * @param rgbColor The RGB color to validate.
-     * @return true if the RGB color is valid, false otherwise.
+     * @param rgbColor The RGB colour to validate.
+     * @return true if the RGB colour is valid, false otherwise.
      */
     private boolean isValidRGB(int rgbColor) {
-        // Check if the RGB color is a valid 24-bit value
+        // Check if the RGB colour is a valid 24-bit value
         int red = (rgbColor >> 16) & 0xFF;
         int green = (rgbColor >> 8) & 0xFF;
         int blue = rgbColor & 0xFF;
@@ -59,34 +59,34 @@ public class ColourTable {
     }
 
     /**
-     * Adds a color to the palette.
+     * Adds a colour to the palette.
      *
-     * @param rgbColor The RGB color to add.
-     * @throws IllegalArgumentException If the RGB color is invalid or a duplicate.
-     * @throws IllegalStateException If the palette already contains the maximum number of colors.
+     * @param rgbColor The RGB colour to add.
+     * @throws IllegalArgumentException If the RGB colour is invalid or a duplicate.
+     * @throws IllegalStateException If the palette already contains the maximum number of colours.
      */
     public void add(int rgbColor) {
-        // Validate RGB color
+        // Validate RGB colour
         if (!isValidRGB(rgbColor)) {
-            throw new IllegalArgumentException("Invalid RGB color value added to ColourTable.");
+            throw new IllegalArgumentException("Invalid RGB colour value added to ColourTable.");
         }
         if (palette.size() >= paletteSize) {
             throw new IllegalStateException("Exceeded the capacity of the ColourTable.");
         }
 
-        // Check for duplicate color
+        // Check for duplicate colour
         if (palette.contains(rgbColor)) {
-            throw new IllegalArgumentException("Duplicate RGB color value added to ColourTable.");
+            throw new IllegalArgumentException("Duplicate RGB colour value added to ColourTable.");
         }
 
-        // Add the RGB color to the palette
+        // Add the RGB colour to the palette
         palette.add(rgbColor);
     }
 
     /**
-     * Returns the number of colors currently in the palette.
+     * Returns the number of colours currently in the palette.
      *
-     * @return The number of colors in the palette.
+     * @return The number of colours in the palette.
      */
     public int getNumberOfColours() {
         return palette.size();
